@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.cdnfonts.com/css/typomoderno" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gunner-storm" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body style="font-family: 'Typomoderno', sans-serif; font-size: large; overflow: hidden;">
+
+    <nav class="fixed top-0 w-full bg-gradient-to-r from-green-600 via-green-200 to-white shadow-md z-10 opacity-2">
+        <div class="container mx-auto flex items-center justify-between py-3 px-4">
+            <a href="index.html" class="text-lg text-white font-bold"
+                style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+                P O R T F O L I O
+            </a>
+            <button class="lg:hidden text-gray-700" id="menu-toggle">
+                &#9776;
+            </button>
+            <div class="hidden lg:flex flex-col lg:flex-row lg:space-x-6 absolute lg:relative top-16 lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent shadow-lg lg:shadow-none p-4 lg:p-0"
+                id="navbarNav">
+                <a href="index.html"
+                    class="relative text-gray-700 font-semibold nav-link block lg:inline-block px-1 py-2">Home</a>
+                <div class="relative group">
+                    <button class="nav-link block text-gray-700 font-semibold lg:inline-block px-1 py-2">About</button>
+                    <ul
+                        class="dropdown-menu absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-lg z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                        <li><a href="./assets/about.html"
+                                class="flex px-4 py-2 text-gray-700 font-semibold hover:bg-gray-200">Bio</a></li>
+                        <li><a href="./assets/about.html"
+                                class="flex px-4 py-2 text-gray-700 font-semibold hover:bg-gray-200">Education</a></li>
+                        <li><a href="./assets/about.html"
+                                class="flex px-4 py-2 text-gray-700 font-semibold hover:bg-gray-200">Skills</a></li>
+                        <li><a href="./assets/about.html"
+                                class="flex px-4 py-2 text-gray-700 font-semibold hover:bg-gray-200">Languages</a></li>
+                    </ul>
+                </div>
+                <div class="relative group">
+                    <button
+                        class="nav-link block text-gray-700 font-semibold lg:inline-block px-1 py-2">Projects</button>
+                    <ul
+                        class="dropdown-menu absolute left-0 mt-2 w-40 bg-white shadow-lg rounded-lg z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                        <li><a href="./assets/projects.html"
+                                class="flex px-4 py-2 text-gray-700 font-semibold hover:bg-gray-200">Projects</a></li>
+                        <li><a href="./assets/projects.html"
+                                class="flex px-4 py-2 text-gray-700 font-semibold hover:bg-gray-200">Certificates</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="./assets/contact.html"
+                    class="relative nav-link block text-gray-700 font-semibold lg:inline-block px-1 py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="font-['Poppins'] font-light bg-[radial-gradient(rgba(43,55,96,1),rgba(11,16,35,1))] text-white">
+        <div class="portfolio fixed-section">
+            <main style="font-family: 'Gunner Storm', sans-serif;">
+                <section
+                    class="page bg-gradient-to-b from-green-500 via-blue-600 to-cyan-600 min-h-screen flex items-center justify-center">
+                    <div class="text-center animate-fade-in">
+                        <h1
+                            class="flex text-9xl ml-1 font-bold text-white mb-4 transform transition duration-500 hover:scale-110">
+                            Hi,
+                        </h1>
+                        <h1
+                            class="flex text-9xl font-bold text-white mb-4 transform transition duration-500 hover:scale-110">
+                            I am Ashwin
+                        </h1>
+                        <p class="text-xl text-gray-50 opacity-75">Welcome to my world of creativity and innovation!</p>
+                    </div>
+                </section>
+                <section
+                    class="page bg-gradient-to-b from-teal-500 to-indigo-500 min-h-[90vh] grid grid-cols-[5%_1fr_1fr_1fr_5%] absolute bottom-0 left-0 w-full opacity-0 pointer-events-none">
+                    <div class="flex col-[2/3] self-center text-center">
+                        <h1
+                            class="text-6xl font-extrabold drop-shadow-lg transform transition duration-500 hover:scale-105">
+                            As a <span class="text-yellow-200 text-9xl">Web <p class="text-yellow-300 text-9xl ml-12">
+                                    Developer</p></span>
+                            <p class="text-xl mt-4 text-gray-200 drop-shadow-md">
+                                I create stunning web experiences with modern technologies.
+                            </p>
+                        </h1>
+                        <img src="images/introslide2.jpg" alt="intro"
+                            class="w-96 h-48 mt-12 mx-12 rounded-lg drop-shadow-lg shadow-2xl border-3 border-gray-200 transform transition duration-500 hover:scale-125">
+                    </div>
+                </section>
+                <section
+                    class="page bg-gradient-to-b from-cyan-400 to-emerald-400 min-h-[90vh] grid grid-cols-[5%_1fr_1fr_1fr_5%] absolute bottom-0 left-0 w-full opacity-0 pointer-events-none">
+                    <div
+                        class="flex col-[2/3] self-center text-center backdrop-blur-md rounded-xl shadow-2xl my-56 p-12">
+                        <h1
+                            class="text-5xl text-left font-extrabold drop-shadow-lg transform transition duration-500 hover:scale-105">
+                            Let's look forward to <span class="text-yellow-200">working</span> with each other
+                        </h1>
+                    </div>
+                    <div
+                        class="flex flex-col items-center justify-center min-h-screen text-white ml-48">
+                        <div class="relative flex items-center justify-center w-64 h-64">
+                            <button
+                                class="absolute w-26 h-26 bg-teal-400 text-gray-600 text-xl font-bold rounded-full shadow-lg hover:scale-110 transition-transform">
+                                Explore More
+                            </button>
+                            <div class="orbit-container text-blue-500">
+                                <div class="orbit">
+                                    <div class="top-0 left-1/2 transform -translate-x-1/2 -translate-y-full">
+                                        <a href="assets/projects.html"><span>Projects</span></div></a>
+                                    <div class="top-1/2 right-0 transform translate-x-full -translate-y-1/2">
+                                        <a href="assets/about.html"><span>About</span></div></a>
+                                    <div class="bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full">
+                                        <a href="assets/projects.html"><span>Skills</span></div></a>
+                                    <div class="top-1/2 left-0 transform -translate-x-full -translate-y-1/2">
+                                        <a href="assets/about.html"><span>Certificates</span></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="page"></section>
+
+                <aside class="pages absolute right-[5%] top-1/2 transform -translate-y-1/2">
+                    <div class="page-1 flex items-center justify-between">
+                        <h3 class="text-2xl p-8">01</h3>
+                        <svg class="slide active cursor-pointer opacity-50 scale-150 hover:animate-dot" width="12"
+                            height="12" viewBox="0 0 12 12" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" />
+                        </svg>
+                    </div>
+                    <div class="page-2 flex items-center justify-between">
+                        <h3 class="text-2xl p-8">02</h3>
+                        <svg class="slide cursor-pointer opacity-50 scale-150 hover:animate-dot" width="12" height="12"
+                            viewBox="0 0 12 12" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" />
+                        </svg>
+                    </div>
+                    <div class="page-3 flex items-center justify-between">
+                        <h3 class="text-2xl p-8">03</h3>
+                        <svg class="slide cursor-pointer opacity-50 scale-150 hover:animate-dot" width="12" height="12"
+                            viewBox="0 0 12 12" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" />
+                        </svg>
+                    </div>
+                    <div class="page-4 slide"> </div>
+                </aside>
+            </main>
+        </div>
+    </section>
+
+    <section class="frameworks" style="overflow: auto">
+        <section
+            class="bg-gradient-to-r from-green-200 via-white to-cyan-300 font-['Montserrat'] flex items-center justify-center m-0 p-12"
+            style="height: 100vh;">
+            <div class="text-white rounded-lg mx-auto p-8 max-w-2xl w-full relative"
+                style="background-image: linear-gradient(to right, rgb(255, 192, 192), rgb(110, 110, 255)), linear-gradient(to bottom, rgb(23, 23, 23), rgb(0, 255, 0)); background-blend-mode: multiply;">
+                <div id="progress-bar" class="bg-white h-1 w-full origin-left animate-grow"
+                    style="animation-duration: 5s"></div>
+                <i class="fas fa-quote-left text-white/30 text-2xl absolute top-16 left-10"></i>
+                <i class="fas fa-quote-right text-white/30 text-2xl absolute bottom-16 right-10"></i>
+                <p id="techstack" class="text-lg font-semibold leading-7 text-justify my-12"
+                    style="font-family: 'Typomoderno', sans-serif; font-size: large;">
+                    I've worked with literally hundreds of HTML/CSS developers and I have to
+                    say the top spot goes to this guy. This guy is an amazing developer. He
+                    stresses on good, clean code and pays heed to the details. I love
+                    developers who respect each and every aspect of a throughly thought out
+                    design and do their best to put it in code. He goes over and beyond and
+                    transforms ART into PIXELS - without a glitch, every time.</p>
+                <div class="flex items-center justify-center">
+                    <img id="tech-image"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6"
+                        alt="user" class="rounded-full h-16 w-16 object-cover" />
+                    <div class="ml-3">
+                        <h4 id="techname" class="font-bold m-0"
+                            style="font-family: 'Typomoderno', sans-serif; font-size: larger; font-weight: bolder;">Node
+                            JS</h4>
+                        <p id="role" class="font-normal my-2"
+                            style="font-family: 'Typomoderno', sans-serif; font-size: larger; font-weight: bolder;">
+                            Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
